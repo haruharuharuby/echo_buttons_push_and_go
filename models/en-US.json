@@ -1,0 +1,22 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"push and go game",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": ["cancel"]
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                }
+            ]
+        }
+    }
+}

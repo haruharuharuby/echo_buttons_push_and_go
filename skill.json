@@ -1,0 +1,38 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is Push And Go game using Amazon Echo Buttons",
+          "examplePhrases": [
+            "Alexa open push and go game",
+            "Alexa open push and go start games",
+            "Alexa open push and go 2 paticipants"
+          ],
+          "name": "EchoDash",
+          "description": "This is a push and go game using Amazon Echo Buttons. Push Button 1(green light) and dash toword button 2(red light). Your Echo tells you how mutch time you splinted. Try shortest rap!!"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Alexa open push and go, Alexa open push and go start games, Alexa open push and go 2 paticipants",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      },
+      "interfaces": [
+        {
+          "type": "GAME_ENGINE"
+        },
+        {
+          "type": "GADGET_CONTROLLER"
+        }
+      ]
+    },
+    "manifestVersion": "1.0"
+  }
+}

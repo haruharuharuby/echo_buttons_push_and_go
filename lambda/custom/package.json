@@ -1,0 +1,12 @@
+{
+  "name": "PushAndGoGame",
+  "version": "1.0.0",
+  "description": "push and go game",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.0",
+    "moment": "^2.19.4"
+  }
+}
